@@ -19,7 +19,7 @@
     "nunomaduro/laravel-desktop-notifier": "^2.6"
   },
   {
-    // ...
+
     "scripts": {
 
         "safe-update-dev": [
