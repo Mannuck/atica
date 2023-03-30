@@ -18,6 +18,19 @@
     "livewire/livewire": "^2.5",
     "nunomaduro/laravel-desktop-notifier": "^2.6"
   },
+  {
+    // ...
+    "scripts": {
+        // ...
+        "safe-update-dev": [
+            "composer update --ignore-platform-req=php --ignore-platform-req=ext-zip"
+        ],
+        "safe-install-dev": [
+            "composer instal --ignore-platform-req=php --ignore-platform-req=ext-zip"
+        ],
+    },
+    // ...
+},
   "require-dev": {
     "fakerphp/faker": "^1.9.1",
     "laravel/sail": "^1.0.1",
