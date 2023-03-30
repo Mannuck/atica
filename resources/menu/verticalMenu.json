@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bxs-cube-alt",
+      "name": "Administración",
+      "slug": "/page-2",
+      "submenu": [
+        {
+          "url": "/page-2",
+          "icon": "menu-icon tf-icons  bx bx-dna",
+          "name": "Recepción de residuos secos",
+          "slug": "page-2"
+        },
+        {
+          "url": "/page-2",
+          "icon": "menu-icon tf-icons bx bx-shape-square",
+          "name": "Recepcion de reciduos humedos",
+          "slug": "page-2"
+        },
+        {
+          "url": "/page-3",
+          "icon": "menu-icon tf-icons bx bx-shape-square",
+          "name": "Lista usuarios",
+          "slug": "page-3"
+        }
+      ]
+    }
+
+  ]
+}
